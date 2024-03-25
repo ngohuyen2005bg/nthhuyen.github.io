@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dathang.css">
+
+</head>
+<body>
+    <div class="root">
+        <p style="color: white;">Hotline:0962265030 ; Địa chỉ:Hiệp Hòa-Bắc Giang .</p>		
+            </div>
+    <div class="header">
+        <div class="text">
+            <h1 style="color: black;">CỬA HÀNG MỸ PHẨM</h1>
+        </div>
+    </div>
+    <div class="menu-web">
+    <div class="menu">
+        <ul class="roost">
+            <li><a href="index.html">Trang chủ</a></li>
+            <li><a href="">Hãng khác</a>
+            <ul class="sub-menu">
+                <li><a href="./son.html">SON</a></li>
+                <li><a href="./phanphu.html"> PHẤN PHỦ </a></a></li>
+                <li><a href="./kemchongnang.html"> KEM CHỐNG NẮNG</a></li>
+            </ul>
+            </li>
+            <li><a href="./kemnen.html">KEM NỀN</a>
+            </li>
+            <li><a href="./kemnot.html"> KEM LÓT</a></li>
+            <li><a href="./dathang.html">Đặt hàng</a>
+                <ul class="sub-menu">
+                <li><a href="https://www.facebook.com/profile.php?id=100023888591885&mibextid=ZbWKwL">Facebook</a></li>
+                <li><a href="https://www.instagram.com/vinhhsshoaiiss?igsh=MTI1ajNsdTh6dWowdg==">Instagarm</a></li>
+            </ul></li>
+            
+        </ul></div>
+    </div>
+    <div class="content">
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>    
+    </div>
+        <section class="order-form">
+            <h2>Trang Đặt Hàng</h2>
+            <form class="form-center" action="submit_order.php" method="post">
+                <label for="product">Sản Phẩm:</label><br>
+                <select id="product" name="product" required>
+                    <option value="">Chọn sản phẩm</option>
+                    <option value="product1">  SON BLACKROUGE A06  -200.000 VND           </option>
+                    <option value="product2">       SON BLACKROUGE A12 - 200.000 VND          </option>
+                    <option value="product3">        SON MARZY    -   232.000   VND      </option>
+                    <option value="product4"> SON BBIA- 249.000 VND</option>
+                    <option value="product5">        SON MAC -330.000 VND       </option>
+                    <option value="product6">    SON 3CE  -270.000 VND           </option>
+                    <option value="product7">    KEM CHỐNG NẮNG SKIN AQUA -215.000 VND         </option>
+                    <option value="product8">      KEM CHỐNG NẮNG Laroche posay- 299.000 VND   </option>
+                    <option value="product9">    KEM CHỐNG NẮNG GSC Triple Sun -268.000              </option>
+                    <option value="product11"> KEM CHỐNG NẮNG SUNPLAY   310.000 VND           </option>
+                    <option value="product12">         KEM CHỐNG NẮNG ANESSA  -325.000 VND      </option>
+                    <option value="product13">            KEM CHỐNG NẮNG VICHY -340.000 VND   </option>
+                    <option value="product3">KEM NỀN FOCALLURE   -290.000      </option>
+                    <option value="product3">               KEM NỀN 3CE  270.000 VND   </option>
+                    <option value="product3">  KEM LỀN L'OREAL   -327.000 VND   </option>
+                    <option value="product3">  KEM NỀN ZEESEA  -330.000 VND        </option>
+                    <option value="product3">KEM NỀN CATRICE -240.00 VND</option>
+                    <option value="product3">       KEM NỀN MAYBELINE -259.000 VND          </option>
+                    <option value="product3">       KEM LOT ZEESEA-234.000 VND       </option>
+                    <option value="product3">      KEM LÓT FOCALLURE-279.000 VND             </option>
+                    <option value="product3">         KEM LÓT CLIO- 234.00 VND   </option>
+                    <option value="product3">            KEM LÓT  L'ocean-370.00 VND     </option> 
+                    <option value="product3">       KEM LÓT Catrice Prime And Fine -260.00 VND            </option> 
+                    <option value="product3">     KEM LÓT MAYBELINE-230.000 VND            </option> 
+                    <option value="product3">           PHẤN PHỦ MAC-220.000 VND      </option> 
+                    <option value="product3">        PHẤN PHỦ NARS-219.000 VND         </option> 
+                    <option value="product3">              PHẤN PHỦ ESSANCE-225.000 VND  </option> 
+                    <option value="product3">       PHẤN PHỦ 3CE-340.00 VND     </option> 
+                    <option value="product3">          PHẤN PHỦ FOCALLURE-330.00VND        </option> 
+                    <option value="product3">       PHẤN PHỦ ATRMISS   -230.00 VND      </option> 
+                </select><br>
+                
+                <label for="name">Họ và Tên:</label><br>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="sodienthoai">Số điện thoại:</label><br>
+                <input type="sodienthoai" id="sodienthoai" name="sodienthoai" required><br>
+                <label for="diachi">Địa chỉ:</label><br>
+                <input type="diachi" id="diachi" name="diachi" required><br>
+                <label for="quantity">Số Lượng:</label><br>
+                <input type="number" id="quantity" name="quantity" min="1" required><br>
+            </select><br>
+                <button type="submit">Đặt Hàng</button>
+            </form>
+        </section>
+    </main>
+    <div class="footer">
+        <div class="centered-div">
+            <h1>ĐỔI HÀNG - BẢO HÀNH</h1>
+        </div>
+        <div class="noidung">
+            <table class="bang1">
+                <tr>
+                    <td>QUY ĐỊNH ĐỔI HÀNG CỦA SHOP NHƯ THẾ NÀO? <br>
+                        Những sản phẩm bị lỗi 
+                     <br>Shop nhận đổi sản phẩm với giá trị bằng hoặc cao hơn. <br>
+                        Bảo hành trong vòng 15 ngày. <br></td>
+                    <td><p>Hệ thống mỹ phẩm</p>
+                        <p>Hotline : 0962.265.030</p>
+                        <p>Store :  Hiệp Hòa -Bắc Giang</p>
+                        <p>&copy; 2024 Ngô Thanh Huyền - CNTT 1707</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
